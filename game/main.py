@@ -7,6 +7,11 @@ BREITE = 1280
 HOEHE = 720
 TITEL = "Spieltitel"
 
+# Sipeltitel und Icon
+pygame.display.set_caption("Space Invaders")
+icon = pygame.image.load("ufo.png")
+pygame.display.set_icon(icon)
+
 Spielername = input("Bitte Spielername eingeben: ") # Marcin Chris, Eingabe des Spielernames
 
 class Game:
